@@ -1,8 +1,7 @@
 import { Account , Client , Databases} from "react-native-appwrite";
 
 export const client = new Client()
-.setEndpoint(process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT!)
-.setProject(process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!)
-.setPlatform(process.env.EXPO_PUBLIC_APPWRITE_PLATFORM!)
+.setEndpoint("https://sgp.cloud.appwrite.io/v1")
+.setProject("69a1acf0000e9b650940")
 
 export const account = new Account(client);

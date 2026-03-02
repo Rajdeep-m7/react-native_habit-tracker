@@ -10,3 +10,4 @@ export const databases = new Databases(client);
 
 export const DATABASE_ID= "69a3b97000199af1467f"
 export const HABITS_COLLECTION="habits"
+export const COMPLETION_COLLECTION="habit_completions"
